@@ -1,3 +1,17 @@
+<div>
+<a href="https://www.mischianti.org/forums/forum/mischiantis-libraries/ebyte-lora-e220-uart-devices-llcc68/"><img
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumEnglish.png" alt="Support forum EByte e220 English"
+   align="right"></a>
+</div>
+<div>
+<a href="https://www.mischianti.org/it/forums/forum/le-librerie-di-mischianti/ebyte-e220-dispositivi-lora-uart-llcc68/"><img
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumItaliano.png" alt="Forum supporto EByte e220 italiano"
+  align="right"></a>
+</div>
+
+
+</br></br>
+
 # EBYTE LoRa E220 devices Orange Pi library (LLCC68)   
 
 ### Installation
@@ -44,8 +58,8 @@ The result
 
 ```
 ----------------------------------------
-Initialization: {} Success
-Retrieve configuration: {} Success
+Initialization: Success
+Retrieve configuration: Success
 ----------------------------------------
 HEAD :  0xc1   0x0   0x8
 AddH :  0x0
@@ -266,6 +280,51 @@ fixed
 
 
 
+<h1>Fully connected schema</h1>
+
+
+
+<p>As I already said, It’s not essential to connect all pins to the microcontroller’s output; you can put M0 and M1 pins to HIGH or LOW to get the desired configuration. If<strong> you don’t connect AUX, the library set a reasonable delay to ensure that the operation is complete</strong> (<strong>If you have trouble</strong> with the <strong>device <strong>freezing</strong>, </strong> <strong>you must put a pull-up 4.7k resistor or better connect to the device.</strong> ).</p>
+
+
+
+<h2>AUX pin</h2>
+
+
+
+<p>When transmitting data can be used to wake up external MCU and return HIGH on data transfer finish.</p>
+
+
+
+<div class="wp-block-image">
+<img src="https://www.mischianti.org/wp-content/uploads/2019/10/e32auxPinOnTransmission-1024x269.jpg"/>
+</div>
+
+
+
+<p>When receiving, AUX goes LOW and returns HIGH when the buffer is empty.</p>
+
+
+
+<div class="wp-block-image"><img src="https://www.mischianti.org/wp-content/uploads/2019/10/e32auxPinOnReception-1024x342.jpg"/></div>
+
+
+
+<p>It’s also used for self-checking to restore regular operation (on power-on and sleep/program mode).</p>
+
+
+
+<div class="wp-block-image">
+<img src="https://www.mischianti.org/wp-content/uploads/2019/10/e32auxPinOnSelfCheck-1024x312.jpg"/>
+</div>
+
+
+
+#### Raspberry Pi
+![Raspberry Pi](https://www.mischianti.org/wp-content/uploads/2023/04/Raspberry-Pi-EByte-LoRa-Exx-fully-connected_bb.jpg)
+
+
+
 # Ebyte LoRa E220 LLCC68 device for Arduino, esp32 or esp8266: library
 
 
@@ -276,6 +335,18 @@ fixed
 
 
       
+
+<div class="mischianti-forum-button-container">
+  	<a class="mischianti-forum-button" href="https://www.mischianti.org/forums/forum/mischiantis-libraries/ebyte-lora-e220-uart-devices-llcc68/" target="_blank">Support Forum</a>
+</div>
+
+
+
+<div class="wp-block-image">
+<img src="https://www.mischianti.org/wp-content/uploads/2021/12/Ebyte-LoRa-E220-LLCC68-device-for-Arduino-esp32-or-esp8266-library-520x280.jpg"/>
+</div>
+
+
 <h2>Basic configuration option</h2>
 
 
@@ -521,3 +592,10 @@ fixed
 
 <ul><li><a href="https://www.pcbway.com/project/shareproject/LoRa_E32_Series_device_Arduino_shield.html">Mischianti Arduino LoRa shield (Open source)</a></li><li><a href="https://www.pcbway.com/project/shareproject/LoRa_E32_Series_device_WeMos_D1_mini_shield_RF_8km_range.html">Mischianti WeMos LoRa shield (Open source)</a></li><li><a rel="noreferrer noopener" href="https://www.pcbway.com/project/shareproject/LoRa_ESP32_DEV_KIT_v1_shield_for_EByte_E32_E22__RF_8km_12km_range.html?from=mischianti05" target="_blank">Mischianti ESP32 DOIT DEV KIT v1 shield (Open source)</a></li></ul>
 
+
+      
+
+<div class="mischianti-forum-button-container">
+  	<a class="mischianti-forum-button" href="https://www.mischianti.org/forums/forum/mischiantis-libraries/ebyte-lora-e220-uart-devices-llcc68/" target="_blank">Support Forum</a>
+</div>
+	</div>
