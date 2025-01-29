@@ -1,3 +1,17 @@
+<div>
+<a href="https://www.mischianti.org/forums/forum/mischiantis-libraries/ebyte-lora-e220-uart-devices-llcc68/"><img
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumEnglish.png" alt="Support forum EByte e220 English"
+   align="right"></a>
+</div>
+<div>
+<a href="https://www.mischianti.org/it/forums/forum/le-librerie-di-mischianti/ebyte-e220-dispositivi-lora-uart-llcc68/"><img
+  src="https://github.com/xreef/LoRa_E32_Series_Library/raw/master/resources/buttonSupportForumItaliano.png" alt="Forum supporto EByte e220 italiano"
+  align="right"></a>
+</div>
+
+
+</br></br>
+
 # EBYTE LoRa E220 devices Orange Pi library (LLCC68)   
 
 ### Installation
@@ -44,8 +58,8 @@ The result
 
 ```
 ----------------------------------------
-Initialization: {} Success
-Retrieve configuration: {} Success
+Initialization: Success
+Retrieve configuration: Success
 ----------------------------------------
 HEAD :  0xc1   0x0   0x8
 AddH :  0x0
